@@ -1,0 +1,28 @@
+
+.footer {
+  background-color:rgba(#003366, .35);
+  box-shadow: rgba(0,0,0, 1);
+  border-radius: 15rem;
+  color: #ffffff; 
+  padding: 20px 0;
+  text-align: center;
+  width: 8%;
+  position: fixed;
+  bottom: 0;
+
+
+    & svg{
+        height: 3rem;
+        cursor: pointer;
+        position: relative;
+        transition: all ease-in-out .5s;
+        top: 0;
+        bottom: 0;
+        &:hover{
+            top: -2px;
+        }
+        &:active{
+            bottom: -3rem;
+        }
+    }
+}

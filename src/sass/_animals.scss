@@ -1,0 +1,88 @@
+
+
+
+.img__name{
+
+
+& img{
+width: 14rem;
+border-radius: 5%;
+}
+
+& h1{
+font-size: 2rem;
+color: #f0e68c;
+padding: 10px;
+border-radius: 8px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+ }
+
+
+}
+
+.healthstatus{
+    font-size: 1.4rem;
+
+  & p{
+    color: #333333;
+    margin: 1.2rem 0;
+    width: 100%;
+ }
+
+ & button{
+background-color: #008080; 
+  color: white; 
+  border: none; 
+  padding: 10px 20px;
+  border-radius: 5px; 
+  text-transform: uppercase; 
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+ 
+ &:hover{
+ background-color: #006666; 
+ }
+  }
+   }
+
+.name-plaque {
+  background-color: #deb887; 
+  color: #3e2723; 
+  text-align: center;
+  padding: 10px 20px;
+  border: 2px solid #3e2723; 
+  border-radius: 5px; 
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); 
+  margin: 10px; 
+  font-family: 'Times New Roman', serif;
+}
+
+
+
+.container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+align-content: center;
+}
+
+.monkeyGrid, .giraffeGrid, .elephantGrid {
+  background-color: #f8f0e3;
+  border: 2px solid #266150;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  color: #333333;
+  overflow: hidden;
+  width: 350px; /* Adjust based on your layout */
+padding: 1rem 5rem;
+    margin: 3rem 5rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.elephantGrid{
+    margin-bottom: 8rem;
+}

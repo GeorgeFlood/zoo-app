@@ -1,0 +1,17 @@
+*::before,
+*::after,
+*{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+body{
+    font-size: 62.5%;
+  background: linear-gradient(to right, #6dbf67, #4d9f5c, #347b50);
+}

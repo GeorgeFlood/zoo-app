@@ -1,0 +1,9 @@
+.img__name img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 100%;
+}
+
+.img__name h1 {
+  font-size: 2rem;
+}/*# sourceMappingURL=animals.css.map */
